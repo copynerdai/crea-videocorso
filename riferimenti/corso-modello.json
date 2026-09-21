@@ -1,0 +1,60 @@
+{
+  "schema": "crea-videocorso/1",
+  "corso": {
+    "slug": "",
+    "titolo": "",
+    "sottotitolo": "",
+    "titolo_breve": "",
+    "lingua": "it",
+    "pubblico": "",
+    "rischio": "none",
+    "nota_validazione": "Validazione professionale non eseguita."
+  },
+  "sorgenti": {
+    "cartella": "",
+    "estensioni": [".md", ".txt"],
+    "salta_note": true
+  },
+  "moduli": {},
+  "marchio": {
+    "cartella": "",
+    "logo": "",
+    "font": "Montserrat",
+    "colori": {
+      "scuro": "#09182d",
+      "primario": "#0070e0",
+      "accento": "#e91e8c",
+      "fondo": "#f3f7fc"
+    },
+    "nota_copertina": ""
+  },
+  "voce": {
+    "fornitore": "elevenlabs",
+    "voice_id": "",
+    "model_id": "eleven_v3",
+    "output_format": "mp3_44100_128",
+    "impostazioni": {
+      "stability": 0.4,
+      "similarity_boost": 0.75,
+      "style": 0.0,
+      "use_speaker_boost": true,
+      "speed": 1.0
+    },
+    "pronunce": {}
+  },
+  "visuali": {
+    "pacchetti": [],
+    "predefinito": "concetto"
+  },
+  "slide": {
+    "caratteri_per_slide": 620,
+    "massimo_per_slide": 950,
+    "frasi_per_slide": 3
+  },
+  "consegne": {
+    "html": true,
+    "pdf": true,
+    "audio": true,
+    "video": true
+  }
+}
